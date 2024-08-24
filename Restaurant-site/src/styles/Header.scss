@@ -1,0 +1,46 @@
+.header {
+  grid-area: 1 / 1 / 1 / 13;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  * {
+    color: white;
+  }
+}
+
+.header__img-container {
+  display: flex;
+}
+
+.header__phone-number {
+  font-size: 24px;
+  grid-column: 3/ 5;
+  font-family: Inter, serif;
+  justify-self: end;
+  margin-right: 26px;
+}
+
+.header__reservations {
+  font-family: fontRufinaBold, serif;
+  font-size: 32px;
+  justify-self: end;
+
+  div {
+    border: 1px solid white;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 46px;
+  }
+
+}
+#header__logo {
+  width: 15vw;
+  min-width: 15vw;
+  padding: 30px 0;
+}
+
+#header__menu-icon {
+  width: 4.5vw;
+  min-width: 4.5vw;
+  margin-left: 3vw;
+}
