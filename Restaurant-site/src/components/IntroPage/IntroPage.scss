@@ -1,22 +1,54 @@
 .intro-page {
-  grid-area: 3 / 1 / 7 / 13;
+  grid-area: 3 / 1 / 11 / 13;
   display: grid;
-  grid-template: ""
+  grid-template: "tb tb tb fph fph"
+                 "tb tb tb fph fph"
+                 "tb tb tb fph fph"
+                 "s . . fph fph"
+                 "s . . fph fph"
+                 "s . . phc phc";
 }
 
 .intro-page__text-block {
   grid-area: tb;
+
+  * {
+    color: white;
+
+  }
 }
 
 .intro-page__text-block--heading {
-
+  font-family: fontRufinaBold, serif;
+  font-size: 128px;
 }
 
 .intro-page__text-block--regular {
+  font-family: fontLatoRegular, serif;
+  font-size: 20px;
+}
+
+.intro-page__scroll {
+  grid-area: s;
+  color: white;
+  font-family: fontRufinaBold, serif;
+  font-size: 48px;
+  writing-mode: vertical-lr;
 
 }
 
+.intro-page__photo-container {
+  grid-area: phc;
+  display: flex;
+  img {
+    width: 10vw;
+    min-width: 10vw;
+  }
+}
+
 #intro-page__food-photo {
-  width: 30vw;
-  min-width: 30vw;
+  grid-area: fph;
+  width: 45vw;
+  min-width: 45vw;
+  justify-self: end;
 }
