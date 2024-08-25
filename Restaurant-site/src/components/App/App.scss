@@ -1,6 +1,6 @@
 #root {
     display: grid;
-    grid-template: repeat(11, 1fr) / repeat(12, 1fr);
+    grid-template: 2fr repeat(11, 1fr) / repeat(12, 1fr);
     column-gap: 60px;
     padding: 0 138px;
     background-color: #233000;

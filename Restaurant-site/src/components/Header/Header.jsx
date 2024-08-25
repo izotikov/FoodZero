@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './styles/Header.css';
+import './Header.css';
 
 const Header = () => {
 
@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <nav className='header'>
             <div className="header__img-container">
-                <img src="../public/foodZeroIcon.svg" alt="FoodZeroIcon" id="header__logo"/>
-                <img src="../public/menu-symbol.svg" alt="menuSymbol" id="header__menu-icon"/>
+                <img src="../../../public/FoodZeroIcon.svg" alt="FoodZeroIcon" id="header__logo"/>
+                <img src="../../../public/menu-symbol.svg" alt="menuSymbol" id="header__menu-icon"/>
             </div>
             <div className="header__phone-number">{phoneNumber}</div>
             <div className="header__reservations">
