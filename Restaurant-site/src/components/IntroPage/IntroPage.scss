@@ -1,17 +1,12 @@
 .intro-page {
-  grid-area: 3 / 1 / 11 / 13;
+  grid-area: 2 / 1 / 11 / 13;
   display: grid;
-  grid-template: "tb tb tb fph fph"
-                 "tb tb tb fph fph"
-                 "tb tb tb fph fph"
-                 "s . . fph fph"
-                 "s . . fph fph"
-                 "s . . phc phc";
+  grid-template: 100px repeat(8, 1fr) / repeat(8, 1fr);
 }
 
 .intro-page__text-block {
-  grid-area: tb;
-
+  grid-area: 2 / 1 / 5 / 6;
+  z-index: 1;
   * {
     color: white;
 
@@ -20,16 +15,19 @@
 
 .intro-page__text-block--heading {
   font-family: fontRufinaBold, serif;
-  font-size: 128px;
+  line-height: 152px;
+  font-size: 143px;
 }
 
 .intro-page__text-block--regular {
+  padding-top: 40px;
   font-family: fontLatoRegular, serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .intro-page__scroll {
-  grid-area: s;
+  grid-area: 4 / 1 / 8 / 1;
+  padding-top: 80px;
   color: white;
   font-family: fontRufinaBold, serif;
   font-size: 48px;
@@ -38,17 +36,24 @@
 }
 
 .intro-page__photo-container {
-  grid-area: phc;
+  grid-area: 5 / 3 / 6 / 7;
+  z-index: 1;
   display: flex;
+  position: relative;
+  top: 70px;
   img {
-    width: 10vw;
-    min-width: 10vw;
+    width: 240px;
+    height: 260px;
+    margin: 0 22px;
   }
 }
 
 #intro-page__food-photo {
-  grid-area: fph;
-  width: 45vw;
-  min-width: 45vw;
+  grid-area: 2 / 5 / 8 / 9;
+  position: relative;
+  top: 123px;
+  width: 792px;
+  height: 931px;
+
   justify-self: end;
 }
