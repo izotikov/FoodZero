@@ -19,6 +19,15 @@ const IntroPage = () => {
                 <img src="../../../public/intro-page__food-from-list-2.png" alt="plate with food"/>
                 <img src="../../../public/intro-page__food-from-list-3.png" alt="plate with food"/>
             </div>
+            <div className="intro-page__clam-and-vegetable-container">
+                <img src="../../../public/clam and vegetable soup in white ceramic bowl.jfif" alt="clam and vegetable soup in white ceramic bowl"/>
+                <div className="intro-page__clam-and-vegetable-container--heading">Start to plan <br/>your diet today</div>
+                <div className="intro-page__clam-and-vegetable-container--regular">Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit. Neque congue arcu</div>
+            </div>
+            <div className="intro-page__pepper-and-salt-container">
+                <div className="intro-page__clam-and-vegetable-container--regular">Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Neque congue arcu</div>
+                <img src="../../../public/two black pepper and salt grinders.jfif" alt="two black pepper and salt grinders"/>
+            </div>
         </div>
     );
 };

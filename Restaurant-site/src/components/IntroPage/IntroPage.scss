@@ -1,15 +1,14 @@
 .intro-page {
   grid-area: 2 / 1 / 11 / 13;
   display: grid;
-  grid-template: 100px repeat(8, 1fr) / repeat(8, 1fr);
+  grid-template: 100px repeat(8, 1fr) / repeat(12, 1fr);
 }
 
 .intro-page__text-block {
-  grid-area: 2 / 1 / 5 / 6;
+  grid-area: 2 / 1 / 4 / 9;
   z-index: 1;
   * {
     color: white;
-
   }
 }
 
@@ -26,7 +25,7 @@
 }
 
 .intro-page__scroll {
-  grid-area: 4 / 1 / 8 / 1;
+  grid-area: 4 / 1 / 7 / 1;
   padding-top: 80px;
   color: white;
   font-family: fontRufinaBold, serif;
@@ -36,11 +35,10 @@
 }
 
 .intro-page__photo-container {
-  grid-area: 5 / 3 / 6 / 7;
+  grid-area: 5 / 4 / 6 / 8;
   z-index: 1;
   display: flex;
   position: relative;
-  top: 70px;
   img {
     width: 240px;
     height: 260px;
@@ -48,12 +46,46 @@
   }
 }
 
+.intro-page__clam-and-vegetable-container {
+  grid-area: 7 / 1 / 10 / 6;
+  * {
+    color: white;
+  }
+  .intro-page__clam-and-vegetable-container--heading {
+    font-family: fontRufinaBold, serif;
+    line-height: 84px;
+    font-size: 68px;
+    padding: 40px 0;
+  }
+  img {
+    width: 792px;
+    height: 560px;
+    object-fit: cover;
+  }
+}
+
+.intro-page__clam-and-vegetable-container--regular {
+  font-family: fontLatoRegular, serif;
+  font-size: 24px;
+}
+
+.intro-page__pepper-and-salt-container {
+  grid-area: 7 / 9 / 10 / 13;
+  * {
+    color: white;
+  }
+  img {
+    width: 508px;
+    height: 710px;
+    margin-top: 84px;
+  }
+}
+
 #intro-page__food-photo {
-  grid-area: 2 / 5 / 8 / 9;
+  grid-area: 2 / 7 / 8 / 13;
   position: relative;
   top: 123px;
   width: 792px;
   height: 931px;
-
   justify-self: end;
 }
