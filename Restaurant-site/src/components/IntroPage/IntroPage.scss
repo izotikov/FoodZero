@@ -1,7 +1,7 @@
 .intro-page {
   grid-area: 2 / 1 / 11 / 13;
   display: grid;
-  grid-template: 100px repeat(8, 1fr) 100px / repeat(12, 1fr);
+  grid-template: 100px repeat(8, 1fr) 200px / repeat(12, 1fr);
   background-color: #233000;
   padding: 0 138px;
 }

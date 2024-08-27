@@ -1,0 +1,29 @@
+{
+  "name": "menuItems",
+  "MenuItems": [
+    {
+      "No": "1",
+      "Name": "Deep Sea Snow White Cod Fillet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Price": "$20"
+    },
+    {
+      "No": "2",
+      "Name": "Steak With Rosemary Butter",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Price": "$22"
+    },
+    {
+      "No": "3",
+      "Name": "Cucumber Salad",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Price": "$18"
+    },
+    {
+      "No": "4",
+      "Name": "Natural Wine Pairing",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Price": "$90"
+    }
+  ]
+}

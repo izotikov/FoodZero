@@ -1,0 +1,46 @@
+.our-menu {
+  grid-area: 11 / 1 / 16 / 13;
+  display: grid;
+  grid-template: 3fr repeat(4, 1fr) / repeat(12, 1fr);
+  padding: 0 138px;
+}
+
+.our-menu__top-block {
+  grid-area: 1 / 1 / 2 / 5;
+  align-self: center;
+  .our-menu__top-block__heading {
+    font-family: fontRufinaBold, serif;
+    font-size: 108px;
+    line-height: 120px;
+  }
+  .our-menu__top-block__description {
+    font-family: fontLatoRegular, serif;
+    font-size: 24px;
+  }
+}
+
+.our-menu__menu-positions {
+  grid-area: 2 / 1 / 6 / 13;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 60px;
+  .our-menu__menu-positions__container {
+
+    .our-menu__menu-positions__container--price {
+      font-family: fontRufinaBold, serif;
+      font-size: 48px;
+      line-height: 64px;
+      text-align: right;
+      border-bottom: 4px dashed black;
+    }
+    .our-menu__menu-positions__container--dish-name {
+      font-family: fontRufinaBold, serif;
+      font-size: 68px;
+      line-height: 84px;
+    }
+    .our-menu__menu-positions__container--dish-description {
+      font-family: fontLatoRegular, serif;
+      font-size: 24px;
+    }
+  }
+}
