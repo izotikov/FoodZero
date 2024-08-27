@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "../Header/Header.jsx";
 import IntroPage from "../IntroPage/IntroPage.jsx";
+import OurMenu from "../OurMenu/OurMenu.jsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
         <Header />
         <IntroPage />
+        <OurMenu />
     </>
   )
 }

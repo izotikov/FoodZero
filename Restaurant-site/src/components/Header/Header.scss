@@ -2,6 +2,8 @@
   grid-area: 1 / 1 / 1 / 13;
   display: grid;
   align-items: center;
+  background-color: #233000;
+  padding: 0 138px;
   grid-template-columns: repeat(5, 1fr);
   * {
     color: white;

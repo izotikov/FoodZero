@@ -1,5 +1,11 @@
 import React from 'react';
 import "./IntroPage.css";
+import clamAndVegetableSoup from './images/clam and vegetable soup in white ceramic bowl.jfif';
+import introPageFoodFromlist1 from './images/intro-page__food-from-list-1.png';
+import introPageFoodFromlist2 from './images/intro-page__food-from-list-2.png';
+import introPageFoodFromlist3 from './images/intro-page__food-from-list-3.png';
+import plate from './images/plate.jfif';
+import twoBlackPepper from './images/two black pepper and salt grinders.jfif';
 
 const IntroPage = () => {
     return (
@@ -13,20 +19,20 @@ const IntroPage = () => {
                 </div>
             </div>
             <div className="intro-page__scroll">Scroll --------------------------</div>
-            <img src="../../../public/plate.jfif" alt="plate" id="intro-page__food-photo"/>
+            <img src={plate} alt="plate" id="intro-page__food-photo"/>
             <div className="intro-page__photo-container">
-                <img src="../../../public/intro-page__food-from-list-1.png" alt="plate with food"/>
-                <img src="../../../public/intro-page__food-from-list-2.png" alt="plate with food"/>
-                <img src="../../../public/intro-page__food-from-list-3.png" alt="plate with food"/>
+                <img src={introPageFoodFromlist1} alt="plate with food"/>
+                <img src={introPageFoodFromlist2} alt="plate with food"/>
+                <img src={introPageFoodFromlist3} alt="plate with food"/>
             </div>
             <div className="intro-page__clam-and-vegetable-container">
-                <img src="../../../public/clam and vegetable soup in white ceramic bowl.jfif" alt="clam and vegetable soup in white ceramic bowl"/>
+                <img src={clamAndVegetableSoup} alt="clam and vegetable soup in white ceramic bowl"/>
                 <div className="intro-page__clam-and-vegetable-container--heading">Start to plan <br/>your diet today</div>
                 <div className="intro-page__clam-and-vegetable-container--regular">Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit. Neque congue arcu</div>
             </div>
             <div className="intro-page__pepper-and-salt-container">
                 <div className="intro-page__clam-and-vegetable-container--regular">Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Neque congue arcu</div>
-                <img src="../../../public/two black pepper and salt grinders.jfif" alt="two black pepper and salt grinders"/>
+                <img src={twoBlackPepper} alt="two black pepper and salt grinders"/>
             </div>
         </div>
     );
