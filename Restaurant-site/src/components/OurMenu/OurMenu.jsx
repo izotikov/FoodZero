@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './OurMenu.css';
+import branchImage from './images/OurMenu-branch.png';
 
 const OurMenu = () => {
 
@@ -22,6 +23,7 @@ const OurMenu = () => {
                 <div className="our-menu__top-block__heading">Our menu</div>
                 <div className="our-menu__top-block__description">{menuDescription}</div>
             </div>
+            <img src={branchImage} alt="image of branch" id="our-menu__branch-image"/>
             <div className="our-menu__menu-positions">
                 {menuItems.map((elem) => {
                     return (
@@ -30,7 +32,6 @@ const OurMenu = () => {
                             <div className="our-menu__menu-positions__container--dish-name">{elem.Name}</div>
                             <div className="our-menu__menu-positions__container--dish-description"> {elem.Description}</div>
                         </div>
-
                         )
                 })}
             </div>

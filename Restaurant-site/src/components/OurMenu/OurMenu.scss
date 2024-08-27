@@ -44,3 +44,12 @@
     }
   }
 }
+
+#our-menu__branch-image {
+  position: relative;
+  grid-area: 1 / 12 / 1 / 13;
+  opacity: 60%;
+  transform: rotate(-115.48deg) scale(4);
+  z-index: -999;
+  overflow: hidden;
+}
